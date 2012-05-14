@@ -1,0 +1,23 @@
+﻿Build started 14/05/2012 19:41:48.
+     1>Project "C:\Users\Daniel Greening\Documents\Visual Studio 2010\Projects\ImageProcessing\ImageProcessing.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ImageProcessing.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ImageProcessing.cpp
+         ImageProcessing.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Daniel Greening\Documents\Visual Studio 2010\Projects\ImageProcessing\Debug\ImageProcessing.exe" /NOLOGO glew32s.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ImageProcessing.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Daniel Greening\Documents\Visual Studio 2010\Projects\ImageProcessing\Debug\ImageProcessing.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Daniel Greening\Documents\Visual Studio 2010\Projects\ImageProcessing\Debug\ImageProcessing.lib" /MACHINE:X86 Debug\ImageProcessing.obj
+         Debug\textfile.obj
+         LINK : C:\Users\Daniel Greening\Documents\Visual Studio 2010\Projects\ImageProcessing\Debug\ImageProcessing.exe not found or not built by the last incremental link; performing full link
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         ImageProcessing.vcxproj -> C:\Users\Daniel Greening\Documents\Visual Studio 2010\Projects\ImageProcessing\Debug\ImageProcessing.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Daniel Greening\Documents\Visual Studio 2010\Projects\ImageProcessing\Debug\ImageProcessing.exe;#1" /manifest Debug\ImageProcessing.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ImageProcessing.unsuccessfulbuild".
+         Touching "Debug\ImageProcessing.lastbuildstate".
+     1>Done Building Project "C:\Users\Daniel Greening\Documents\Visual Studio 2010\Projects\ImageProcessing\ImageProcessing.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.88
